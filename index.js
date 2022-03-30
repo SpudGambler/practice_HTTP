@@ -13,7 +13,7 @@ const port = process.env.PORT;
 
 app.listen(port, () => console.log('Active port', port));
 
-/* Endpoint: http://localhost:4000 */
+/* Endpoint: http://localhost:5000 */
 app.get('/', (req, res) => {
   res.send('Actividad A Completar Mamaguevo');
 });

@@ -15,7 +15,7 @@ app.listen(port, () => console.log('Active port', port));
 
 /* Endpoint: http://localhost:5000 */
 app.get('/', (req, res) => {
-  res.send('Actividad A Completar Mamaguevo');
+  res.send('Practica HTTP - Despliegue');
 });
 
 mongoose
